@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+    padding-top: 120px; /* Relleno superior igual a la altura de la cabecera*/
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.2em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#main-header {
+	background: #074c53;
+	color: rgb(255, 255, 255);
+	height: 120px;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}	
+
+
+#main-header a {
+	color: rgb(170, 166, 166);
+}
+
+/*
+* Logo
+*/
+#logo-header {
+	float: left;
+	padding: 20px 10px 5px 5px;
+	text-decoration: none;
+    justify-content: center;
+}
+
+#logo-header:hover {
+    color: rgb(4, 0, 112);
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 1000;
+    font-size: 2em;
+}
+#logo-header  .logo{
+	width: 100px;
+	height: 100px;
+}
+
+#nav1{
+	float: right;
+}
+
+/*
+*Navegación
+*/
+
+
+nav {
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+	
+nav ul li {
+	display: inline-block;
+	line-height: 120px;
+}
+			
+nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+	top: 0;
+}
+			
+nav ul li a:hover {
+	background: #126666;
+}
+
+
+/*slider*/
+#carouselExampleIndicators .carousel 
+{
+	margin-top: 120px;
+}
+
+ /*fin slider*/
+
+.nosotro img{
+	padding: 20px;
+	margin-left: 45px;
+	width: 25%;
+	height: 25%;
+}
+
+#main-content {
+	width: 100%;
+	margin-top: 150px;
+	margin: 20px auto;
+}
+
+#main-content header,
+#main-content .content {
+	padding: 40px;
+}
+
+#main-footer {
+	background:#074c59;;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	
+#main-footer p {
+	margin: 0;
+}
+	
+#main-footer a {
+	color: white;
+}
+#consulta{
+	margin-top: 800px;
+	text-align: center;
+	margin-right: 50px;
+	margin-left: 50px;
+}
